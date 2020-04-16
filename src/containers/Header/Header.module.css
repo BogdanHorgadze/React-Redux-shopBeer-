@@ -1,0 +1,38 @@
+.Header {
+    background: #65dbca;
+}
+
+.Holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Right ul li{
+   display: inline-flex;
+   margin-left: 10px;
+}
+
+.Right ul li a{
+    text-decoration:none;
+    color:black;
+ }
+
+ .Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .Left {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .Left a{
+    text-decoration:none;
+    color:black;
+ }
+ .Left span {
+    font-size:25px;
+    cursor:pointer;
+ }
