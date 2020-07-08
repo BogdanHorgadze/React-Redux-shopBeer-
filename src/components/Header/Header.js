@@ -1,8 +1,7 @@
 import React from 'react'
 import classes from './Header.module.css'
 import Layout from '../../hoc/Layout/Layout'
-import Favourite from '../Favourite/Favourite'
-import {Route,NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 class Header extends React.Component {
     render(){

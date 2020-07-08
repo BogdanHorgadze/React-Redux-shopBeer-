@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import Header from './containers/Header/Header'
-import Content from "./containers/Content/Content";
-import Search from "./containers/Search/Search";
-import Favourite from './containers/Favourite/Favourite'
+import Header from './components/Header/Header'
+import Content from "./components/Content/Content";
+import Search from "./components/Search/Search";
+import Favourite from './components/Favourite/Favourite'
 import {Route,Switch} from 'react-router-dom'
 import './App.css';
 

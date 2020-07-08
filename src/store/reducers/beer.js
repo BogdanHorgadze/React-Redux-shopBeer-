@@ -13,7 +13,6 @@ export default function beer(state = initialState, action) {
             return{
               ...state, nameBeer : action.value  
             }
-            break;
         case GETDATA:
             return{
                ...state, dataBeer : [...action.beer,...state.dataBeer] 
@@ -52,6 +51,5 @@ export default function beer(state = initialState, action) {
             }
         default:
         return state
-            break;
     }
 }
